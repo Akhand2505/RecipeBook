@@ -15,5 +15,8 @@ new ingredient('onion', 5),
 
   ngOnInit() {
   }
+  onIngredientAdd(ingredient: ingredient){
+    this.ingredients.push(ingredient);
+  }
 
 }
